@@ -4,11 +4,14 @@ This repo has a sklearn compatible transformer that transforms multi variate tim
 
 The transformer takes each time series in the multivariate time series, computes DCT-2 transformation on multiple subwindows, takes the most significant coefficients, and concatenates these coefficients to create the final tabular data.
 
-How to run:
+# How to run:
+
 python ts_transformer.py
 
-Expected output:
+# Expected output:
+
 UTS Transformer, Xt: (100, 9)
+
 MTS Transformer, Xt: (100, 18)
 
 
